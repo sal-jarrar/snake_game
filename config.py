@@ -1,0 +1,20 @@
+class Config():
+  FBS = 9
+  MENU_FBS = 60
+  WIN_WIDTH = 640
+  WIN_HEIGHT = 480
+  CELLSIZE = 20
+  assert WIN_HEIGHT % CELLSIZE == 0
+  assert WIN_WIDTH % CELLSIZE == 0
+  CELLWIDTH = int(WIN_WIDTH/CELLSIZE)
+  CELLHEGHT = int(WIN_HEIGHT/CELLSIZE)
+
+  #Colors
+
+  WHITE = (255, 255, 255)
+  BLACK = (0, 0, 0)
+  RED = (255, 0, 0)
+  GREEN = (0, 255, 0)
+  DARKGREEN = (0, 155, 0)
+  DARKGREY = (40, 40, 40)
+  BG_COLOR = BLACK
